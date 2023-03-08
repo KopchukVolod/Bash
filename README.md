@@ -7,7 +7,7 @@
 ## Describe 
 `#!bin/bash`: This line is called the shebang, which specifies the interpreter to be used to run the script, in this case, Bash.
 
-`echo` "Congrats with new build!": This line prints a congratulatory message to the user.
+`echo "Congrats with new build!"`: This line prints a congratulatory message to the user.
 
 `firstline=$(head -n 1 source/changelog.md)`: This line reads the first line of the changelog.md file in the source directory and stores it in the firstline variable.
 
